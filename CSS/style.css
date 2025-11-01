@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+border: radius 20px;
+box-sizing: border-box;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+
+
+
+
+
+}
+div nav  {
+  width: 100%;
+  background: linear-gradient(rgb(254, 70, 217),rgb(252, 176, 243),rgb(252, 137, 233));
+  font-size:larger;
+  justify-content: space-around;
+  margin-bottom:10px ;
+  height: auto;
+  padding:20px ;
+border-radius: 1px;
+font-size:30px;
+border-radius: 10px;
+
+
+
+}
+div nav a {
+
+ color: blue;
+  text-decoration: none;
+  margin: 0 30px;
+
+}
+.header h2 {
+  padding-bottom: 60px;
+  margin: 20px  0;
+  border-radius: 10PX;
+  background:linear-gradient(rgb(6, 134, 232),rgb(88, 185, 250),rgb(151, 214, 253));
+  padding-top: 50px;
+font-size: xx-large;
+
+}
+.header video {
+width: 100%;
+margin-top: 10px;
+
+}
+.us   {
+  background:linear-gradient(rgb(16, 171, 249),rgb(99, 216, 248),rgb(160, 236, 255));
+  padding-bottom:30px ;
+  font-size: x-large;
+  border-radius: 20px;
+  margin: 20PX 0;
+  
+
+} 
+
+.us img {
+width: 100%;
+margin-bottom: 10px;
+
+}
+ .us button{
+  border-radius: 20px;
+  padding: 8px;
+  background-color: rgb(234, 239, 237);
+  border: yellow 3px solid;
+  margin: 4px 3px;
+
+  
+  
+
+ } 
+
+
+.us h3   {
+
+  padding: 10% 0 5% 0;
+  color:black;
+  font-size:xx-large;
+
+
+}   
+ 
+.us p  {
+  padding: 10pxs;
+
+
+}
+
+
+.us h4  {
+padding: 10px;
+margin: 4px;
+font-size: xx-large;
+
+}
+
+
+  footer { 
+  background: linear-gradient(rgb(255, 100, 170),rgb(253, 134, 221),rgb(235, 163, 213));
+   margin-top: 0;
+  border-radius: 5px;
+  width: 100%;
+  
+  
+
+     
+}
+.list-group-item {
+  background: linear-gradient(rgb(92, 203, 251), rgb(133, 209, 242),rgb(196, 226, 240));
+}
+
+.roles img{
+  width: 100%;
+}
+.team img{
+
+  width: 100%;
+}
+.we, .row , .card , .g-4 {
+  background: linear-gradient(rgb(17, 180, 250),rgb(174, 227, 231),rgb(188, 238, 255));
+  width: 100%;
+  background-color: rgb(227, 164, 254);
+padding-top: 30px;
+border-bottom-right-radius: 10px;
+
+
+}
+.we h3 {
+  padding-bottom: 20px;
+}
+.purpose div  {
+  background:linear-gradient(rgb(255, 31, 169), rgb(250, 114, 182), rgb(253, 149, 197));
+  
+}
+.purpose {
+  padding-top: 20px;
+  
+}
+.purpose, list-group ,list-flush{
+  border-radius: 10px;
+  margin-top: 30px;
+  background:linear-gradient(rgb(106, 237, 249),rgb(180, 228, 248),rgb(217, 243, 243))
+}
+.we {
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px ;
+}
+
+.form ,input {
+  display: block; 
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid rgb(39, 180, 250);
+border-radius: 8px;
+font-size:  18px;
+width: 70%;
+
+}
+form button  {
+display: block;
+width: auto;
+padding: 15px;
+border: 2px solid rgb(12, 148, 252);
+border-radius: 8px;
+
+}
+.sign-up {
+  width: 100%;
+  /* margin: 20px auto 50px; */
+  background:linear-gradient(rgb(250, 131, 204), rgb(227, 146, 212), rgb(205, 199, 202));
+  
+}
+button:hover {
+
+background-color: rgb(246, 161, 207);
+color: aliceblue;
+}
+.reach  {
+   margin-left: 8px;
+}
+
+.genderequal {
+
+  width: 100%;
+  /* margin: 10px auto 50px; */
+  /* margin-bottom: 0; */
+  
+  
+  background:linear-gradient(rgb(250, 131, 204), rgb(227, 146, 212), rgb(205, 199, 202));
+  
+}
+.activities  {
+/* width: 100%; */
+ /* margin:0px; */
+margin-bottom: 0%;
+background: linear-gradient(rgb(250, 131, 204), rgb(227, 146, 212), rgb(205, 199, 202));
+
+
+
+
+}
+
+
+/* Responsive design */
+@media (max-width: 900px) {
+  nav {
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .us h3,
+  .us h4 {
+    font-size: large;
+  }
+
+  .form input,
+  form button {
+    width: 90%;
+  }
+}
+
+
